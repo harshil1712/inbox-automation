@@ -15,5 +15,9 @@
 		"typescript": "^5.5.2",
 		"vitest": "~3.0.7",
 		"wrangler": "^4.14.1"
+	},
+	"dependencies": {
+		"postal-mime": "^2.4.3",
+		"unpdf": "^1.0.4"
 	}
 }
