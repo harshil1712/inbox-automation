@@ -14,6 +14,23 @@
 		{
 			"name": "EMAIL"
 		}
+	],
+	"workflows": [
+		{
+			"name": "expense-automation",
+			"class_name": "ExpenseAutomationWorkflow",
+			"binding": "EXPENSE_AUTOMATION"
+		}
+	],
+	"ai": {
+		"binding": "AI"
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "expenses",
+			"database_id": "8736a37f-6869-4cf0-94e5-132310daf35d"
+		}
 	]
 	/**
 	 * Smart Placement
